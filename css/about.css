@@ -1,0 +1,129 @@
+/* BODY */
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url("/images/doodle_art_bg_black.jpg");
+}
+
+/* MISSION */
+#about_mission {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5));
+
+  /* min-height: 250px; */
+  display: block;
+
+  max-width: 100%;
+
+  color: white;
+
+  text-align: center;
+}
+
+#about_mission h2 {
+  margin: auto;
+  /* padding-bottom: 5%;
+  padding-top: 5%; */
+  padding: 5%;
+}
+
+.row {
+  justify-content: space-evenly;
+}
+
+.prod_card {
+  position: relative;
+  height: 250px;
+  width: 250px;
+
+  border: 2px solid black;
+  border-radius: 1em;
+  padding: 0;
+}
+
+.card_body {
+  position: absolute;
+  top: 150px;
+  bottom: 0px;
+
+  border: 1px solid transparent;
+  border-radius: 0.75em;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
+}
+
+.card-text {
+  font-size: 25px;
+  color: white;
+}
+
+#card1,
+#card3,
+#card5 {
+  margin: 1em;
+}
+
+#card2 {
+  margin-left: 8em;
+}
+
+#card4 {
+  margin-right: 8em;
+}
+
+/*OUR STORY */
+#about_story {
+  background: white;
+  padding: 2em;
+  border-radius: 0.95em;
+}
+
+#about_story h2 {
+  border-bottom: 1px solid #50a9d8;
+  border-bottom-width: 3px;
+  color: #50a9d8;
+  padding-bottom: 7px;
+}
+
+/* Carousel */
+.wrapper {
+  width: 100%;
+}
+.carousel {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 30px;
+}
+.carousel .card {
+  color: #000;
+  text-align: center;
+  margin: 20px 0;
+  line-height: 250px;
+  font-size: 90px;
+  font-weight: 600;
+  border: none;
+  /* border-radius: 10px; */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0);
+}
+
+.owl-dots {
+  text-align: center;
+  margin-top: 40px;
+}
+.owl-dot {
+  height: 15px;
+  width: 45px;
+  margin: 0 5px;
+  outline: none;
+  border-radius: 14px;
+  border: 2px solid #0072bc !important;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+.owl-dot.active,
+.owl-dot:hover {
+  background: #0072bc !important;
+}
+
+body {
+  font-family: Lato;
+}

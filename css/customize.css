@@ -1,0 +1,23 @@
+.row {
+  justify-content: center;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url("/images/doodle_art_bg_black.jpg");
+}
+
+body {
+  font-family: Lato;
+}
+
+#size_dropdown {
+  border: 0.01px solid black;
+  border-radius: 0.25em;
+}
+
+#crust_dropdown {
+  border: 0.01px solid black;
+  border-radius: 0.25em;
+}

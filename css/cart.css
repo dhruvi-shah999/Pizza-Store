@@ -1,0 +1,78 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url("/images/doodle_art_bg_black.jpg");
+}
+
+hr {
+  /* display: block; */
+  /* height: 1px; */
+  /* border: 0; */
+  border: 2px solid black;
+}
+
+@media only screen and (max-width: 768px) {
+  #main-container {
+    max-width: none;
+    /* width: 100vw; */
+    /* padding: 0;
+    margin: 0; */
+  }
+}
+
+.item-card {
+  margin: 0.5%;
+  border: 1px solid transparent;
+  padding: 2%;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+#item1 {
+  height: 200px;
+  width: 200px;
+  padding-right: 0;
+}
+#item1 img {
+  height: 100%;
+  width: 100%;
+  border: 0.1px solid transparent;
+  border-radius: 0.5em;
+}
+
+#item2 p {
+  font-size: 1em;
+  color: rgb(50, 50, 50);
+}
+
+.remove-btn {
+  background: red;
+  border: none;
+
+  position: absolute;
+  right: 2%;
+}
+@media only screen and (max-width: 576px) {
+  .remove-btn {
+    position: relative;
+    left: 1%;
+  }
+}
+
+#end-card {
+  font-size: 1.4em;
+}
+
+#end-card a {
+  height: 70px;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+.empty-tag {
+  min-height: 300px;
+  text-align: center;
+
+  margin-top: 20%;
+
+  color: rgb(172, 23, 23);
+}

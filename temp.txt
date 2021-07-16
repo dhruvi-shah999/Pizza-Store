@@ -1,0 +1,13 @@
+home:
+modify home
+actually implement the offers
+
+contact us:
+backend
+
+menu:
+give direct add to cart option.
+add veg and non veg logo
+
+cart:
+

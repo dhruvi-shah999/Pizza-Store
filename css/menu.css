@@ -1,0 +1,60 @@
+/* .card {
+  margin: 0.2em;
+} */
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url("/images/doodle_art_bg_black.jpg");
+}
+
+.card {
+  min-height: 320px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.btn {
+  position: absolute;
+  bottom: 25px;
+  /* top: 10px; */
+}
+
+/* CART */
+#menu-div {
+  /* width: calc(100vw - 300px); */
+}
+
+#cart-div {
+  /* min-width: 200px; */
+  /* min-width: 100px; */
+
+  background: red;
+}
+
+#cart-btn {
+  position: sticky;
+  right: 0;
+  top: 70px;
+
+  height: 60px;
+  width: 65px;
+  background: white;
+  padding: 5px;
+  border-radius: 1em;
+}
+#cart-btn a {
+}
+
+#cart-btn a img {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+
+body {
+  font-family: Lato;
+}
+
+h2 {
+  color: white;
+}
